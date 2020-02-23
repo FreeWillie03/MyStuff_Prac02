@@ -1,0 +1,10 @@
+language: csharp
+dotnet: 
+script:
+  dotnet test Problems.Test
+matrix:
+ include:
+  - dit: xential
+  - dist: trusty
+  - dotnet: 2.0.0
+  - os: osx
