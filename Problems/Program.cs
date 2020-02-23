@@ -25,10 +25,10 @@ namespace Problems
             }
 
             if(length > 0){
-                output = string.Format("{1},{2}:{3}",length,words,input);
+                output = string.Format("{0},{1}:{2}",length,words,input);
             }else{
                 words--;
-                output = string.Format("{1},{2}:{3}",length,words,input);
+                output = string.Format("{0},{1}:{2}",length,words,input);
             }
 
             return output;
