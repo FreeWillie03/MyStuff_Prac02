@@ -1,0 +1,15 @@
+Part 1, Answer 1: git init 
+	Answer 2: dotnet new console -n Problems 
+	Answer 3: dotnet new sln -n MyStuff
+	Answer 4: dotnet sln .\MyStuff.sln add .\Problems\
+	Answer 5: dotnet build .\Problems\Problems.csproj
+	Answer 6: dotnet new NUnit -n Problems.Tests
+	Answer 7: git remote -v
+		  origin  https://github.com/FreeWillie03/MyStuff_Prac02.git (fetch)
+		  origin  https://github.com/FreeWillie03/MyStuff_Prac02.git (push)
+	Answer 8: dotnet test .\Problems.Tests
+
+Part 2, Answer 1: origin  https://github.com/FreeWillie03/flowershop.git (fetch)
+		  origin  https://github.com/FreeWillie03/flowershop.git (push)
+	Answer 2: dotnet add .\FlowerShopTests\ package Nsubstitute
+	Answer 3: 
